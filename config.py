@@ -6,7 +6,7 @@ from dotenv import load_dotenv # Загружает секретные данн�
 load_dotenv()
 
 # Получение данных, извелечение токенов
-TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
+TELEGRAM_TOKEN =  os.getenv('TELEGRAM_TOKEN')
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
 # Промпт для философского стиля
